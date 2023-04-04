@@ -1,0 +1,66 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,500;0,800;1,500&display=swap');
+
+body{
+    font-family: 'Nunito', sans-serif;
+}
+
+.card{
+    transition: 0.4s ease-in-out;
+    border-radius: 20px;
+}
+
+.card-selected{
+    border: 0.1px solid rgba(52, 152, 219,1.0);
+    box-shadow: 0 0 10px 0 rgba(52, 152, 219,1.0);
+    transform: scale(1.05);
+}
+.hoverCard:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
+    cursor: pointer;
+}
+.clickCard{
+   border: 1px solid blue;
+}
+
+.accordion{
+    width: 60%;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+
+.accordion_Text{
+    width: 60%;
+    margin: 0 auto;
+}
+
+
+.blog-footer {
+    padding: 2.5rem 0;
+    color: #727272;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-top: .05rem solid #e5e5e5;
+  }
+  .blog-footer p:last-child {
+    margin-bottom: 0;
+  }
+
+@media screen and (max-width: 768px){
+    .accordion{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 576px){
+    .card{
+        margin: 0 auto;
+    }
+    .accordion{
+        width: 100%;
+    }
+}
+    
+    
+
